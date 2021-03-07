@@ -1,0 +1,46 @@
+#mapid {
+	height: 400px;
+	width: 800px;
+	display: inline-block;
+}
+
+.leaflet-popup-content p {
+	margin: 0.2em 0;
+}
+
+.sequence-control-container, .legend-control-container {
+	background-color: rgba(0, 148, 151, 0.06);
+	padding: 2px;
+	text-align: center;
+	border: solid gray 2px;
+}
+
+.sequence-control-container {
+	width: 350px;
+	height: 30px;
+	line-height: 45px;
+}
+
+.range-slider {
+	width: 200px;
+}
+
+#forward {
+	float: right;
+}
+
+#reverse {
+	float: left;
+}
+
+.legend-control-container {
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 160px;
+	height: 100px;
+	border: solid gray 2px;
+}
+
+#temporal-legend {
+	font-weight: bold;
+	font-size: 1.5em;
+}
